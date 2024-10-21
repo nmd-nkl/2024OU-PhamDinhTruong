@@ -26,10 +26,16 @@
 
 **`git merge {tên branch}:`** tổng hợp lại branch
 
+**`git push -u origin/link_git {tên branch}:`** đẩy branch lên github
+
+**`git checkout -b {tên branch} origin/{tên branch}:`** clone branch từ github
+
 **`git branch -d {tên branch}:`** xoá 1 branch
 
 ## Github
-**`git push: {đường link}{branch}`** đẩy lên repo
+**`git push: {đường link/origin}{branch}`** đẩy lên repo
+
+**`git pull: `** lấy về
 
 **`git clone {đường link}:`** lấy một remote về local
 
