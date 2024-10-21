@@ -2,6 +2,7 @@
 ## OOP là gì?
 
 ### 1.Khái niệm:
+>[!TIP]
 >*Lập trình hướng đối tượng là phương pháp lập trình lấy đối tượng làm nền tảng để xây dựng chương trình*
 
 #### Đối tượng: 
@@ -10,6 +11,7 @@ Một đối tượng gồm 2 thông tin **`Thuộc tính`** và **`Phương th�
 * **`Phương thức`** là những thao tác, hành động mà đối tượng đó có thể thực hiện
 
 ####  Lớp
+>[!TIP]
 > *Các đối tượng có đặc tính tương tự nhau được gọi là 1 lớp đối tượng*
 
 ### 2. Ưu nhược điểm của OOP
@@ -22,6 +24,7 @@ Một đối tượng gồm 2 thông tin **`Thuộc tính`** và **`Phương th�
 
 ## Class và Object
 ### 1. Class
+>[!TIP]
 >**Một Class trong C# gồm các thành phần:**
 > * **Thuộc tính:**  là các thành phần dữ liệu hay còn gọi là các biến
 > * **Phương thức:** là các hàm thành phần thể hiện các hành vi của một đối tượng thuộc lớp
@@ -83,4 +86,15 @@ class men{
 
 ## Các tính chất của OOP
 ### 1. Tính đóng gói
-##### a) Phạm vi truy cập
+>[!TIP]
+>##### Phạm vi truy cập
+>* **public:** Có thể truy cập bất cứ đâu
+>* **private:** Chỉ có thể truy cập bên trong class được khai báo đó
+>* **protected:** Chỉ có thể truy cập ở bên trong class và các class kế thừa khác
+>* **internal:** Chỉ có thể truy cập trong cùng 1 Assembly (nói cách khác là cùng project). Thường dùng cho class
+>* **protected internal:** Tương tự như **internal** ngoài ra có thể truy cập từ lớp dẫn xuất lớp chứa nó
+
+> [!CAUTION]
+> * Nếu khai báo lớp mà không chỉ ra phạm vi cụ thể thì phạm vi mặc định là **internal**.
+>* Nếu khai báo thành phần bên trong lớp mà không chỉ ra phạm vi cụ thể thì phạm vị mặc định là **private**.
+
