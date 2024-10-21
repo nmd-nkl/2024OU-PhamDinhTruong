@@ -5,9 +5,9 @@
 >*Lập trình hướng đối tượng là phương pháp lập trình lấy đối tượng làm nền tảng để xây dựng chương trình*
 
 #### Đối tượng: 
-Một đối tượng gồm 2 thông tin <span style="background-color: #FEEE91">**Thuộc tính**</span> và <span style="background-color: #FEEE91">**Phương thức**</span>
-* <span style="background-color: #FEEE91">**Thuộc tính**</span> là những thông tin, đặc điểm của đối tượng
-* <span style="background-color: #FEEE91">**Phương thức**</span> là những thao tác, hành động mà đối tượng đó có thể thực hiện
+Một đối tượng gồm 2 thông tin **`Thuộc tính`** và **`Phương thức`**
+* **`Thuộc tính`** là những thông tin, đặc điểm của đối tượng
+* **`Phương thức`** là những thao tác, hành động mà đối tượng đó có thể thực hiện
 
 ####  Lớp
 > *Các đối tượng có đặc tính tương tự nhau được gọi là 1 lớp đối tượng*
@@ -23,10 +23,10 @@ Một đối tượng gồm 2 thông tin <span style="background-color: #FEEE91"
 ## Class và Object
 ### 1. Class
 >**Một Class trong C# gồm các thành phần:**
-> * **<span style="background-color: #FEEE91">Thuộc tính:</span> là các thành phần dữ liệu hay còn gọi là các biến**  
-> * **<span style="background-color: #FEEE91">Phương thức:</span> là các hàm thành phần thể hiện các hành vi của một đối tượng thuộc lớp**
-> * **<span style="background-color: #FEEE91">Phương thức khởi tạo </span>**
-> * **<span style="background-color: #FEEE91">Phương thức huỷ bỏ </span>**
+> * **Thuộc tính:**  là các thành phần dữ liệu hay còn gọi là các biến
+> * **Phương thức:** là các hàm thành phần thể hiện các hành vi của một đối tượng thuộc lớp
+> * **Phương thức khởi tạo**
+> * **Phương thức huỷ bỏ**
 
 **Cú pháp:**
 ```cs
